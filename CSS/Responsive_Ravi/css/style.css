@@ -1,0 +1,80 @@
+*{ /* *{ To remove the side margins of the browser. */
+   /* Graphics can be taken from vecteezy. */
+    margin: 0;
+    padding: 0;
+ }
+.navigation{
+    font-family: var(--font1);
+    height: 34px;
+    /* background-color: red; */
+    display: flex;
+    /* Space between provides the space between div when 
+    using flex putting things in the same line. */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+}
+
+.nav-left ul{
+    display: flex; 
+    align-items: center;  
+    margin: 0 77px; 
+    font-size: 18px;
+}
+
+.nav-left ul li{
+    /* To remove the circles coming from li under ul.*/
+    list-style: none;
+   /*When one value is specified, it applies the same margin to all four sides.
+     When two values are specified, the first margin applies to the top and bottom,
+     the second to the left and right. When three values are specified, the first 
+     margin applies to the top, the second to the right and left, 
+     the third to the bottom.*/
+    margin: 0px 14px;
+    /*To make the font different from the logo.*/
+    font-family: var(--font2);
+}
+
+.nav-left ul li a{
+    /* To remove the circles coming from li under ul.*/
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    height: 400px;
+    display: flex;
+    background-color: rgb(178, 178, 211);
+}
+
+.content-left{
+    font-family: var(--font1);
+    /*Way to make relative width. */
+    width: 50%;
+    display: flex;
+    /* This will make the content to be arranged vertically.*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img{
+    height: 355px;
+}
+
+.footer{
+    /* Need to apply the image and contents here.*/
+    height: 95px;
+    /* background-color: blue; */
+}
+

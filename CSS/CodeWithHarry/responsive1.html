@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Units</title>
+<style>
+    .html{
+        font-size: 25px;
+    }
+    .container{
+        font-size: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+    #first{
+        font-size: 2em; /* It means x times the size of parent.
+                            You can see that in the computed tab. It takes reference from 
+                            immediate parent. */
+         padding: 3em;   /*Computed pixels 30? or 90?. It becomes 90 as it will refer 
+                            to immediate parent i.e. font-size */
+    }
+    #second{
+        
+        font-size: 3rem;
+
+        padding: 3rem;
+    }
+    #third{
+        
+        font-size: 3rem;
+
+        padding: 3rem;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="first">This is the first heading.</h1>
+        <h1 id="second">This is the second heading.</h1>
+        <h1 id="third">This is the third heading.</h1>
+    </div>
+  
+</body>
+</html>

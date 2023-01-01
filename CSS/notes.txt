@@ -1,0 +1,10 @@
+1.)	
+body {
+  background-color: lightblue;
+}
+
+2.)
+body {
+  background-image: url("paper.gif");
+}
+3.)

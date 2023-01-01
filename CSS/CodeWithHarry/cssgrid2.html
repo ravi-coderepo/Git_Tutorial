@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .grid{
+            display: grid;
+            grid-template-rows: 1fr 4fr 1fr;
+            grid-auto-rows: 3fr;
+            grid-gap: 2em;
+            /* grid-template-columns: 1fr 4fr 1fr; */
+
+            /* fr just takes care of the width, it could be either vertical
+                or horizontal columns. */
+
+            /* V.V.V. Imp - Customized responsive content could be 
+               made with media queries. */
+           
+    }
+    .box{
+                /* height: 100px;
+                width: 100px; */
+            border: 2px solid black;
+            background-color: red;
+        }
+</style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box" id="boxId-1">This is box-1</div>
+        <div class="box" id="boxId-2">This is box-2</div>
+        <div class="box" id="boxId-3">This is box-3</div>
+        <div class="box" id="boxId-4">This is box-4</div>
+        <div class="box" id="boxId-5">This is box-5</div>
+        <div class="box" id="boxId-6">This is box-6</div>
+        <div class="box" id="boxId-7">This is box-7</div>
+        <div class="box" id="boxId-8">This is box-8</div>
+        <div class="box" id="boxId-9">This is box-9</div>
+        <div class="box" id="boxId-10">This is box-10</div>
+    </div>
+</body>
+</html>

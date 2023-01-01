@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Display</title>
+<style>
+    header{
+        margin: auto;
+        border: 2px solid red;
+        width: 1200px;
+
+    }
+    img{
+        width: 70px;
+        display: block;
+        margin: auto;
+        /* margin: 10px 5px 5px 85px; */
+    } 
+    h3{
+        margin: 0px;
+        text-align: center;
+        /* Use text-align for header manipulation, not margin or pixels*/
+    }
+    .box{
+        border: 4px solid black;
+        margin: 4px 0px;
+        padding: 43px;
+        display: inline-block; /*So, display has three properties inline, block, inline-block*/
+        width: 33%;
+        box-sizing: border-box; /* It fixes the size of box including padding and margin */
+    }
+    .container{
+        width: 1200px;
+        margin: auto;
+    }
+/* A div containing internal div as block element, cannot be in-lined. If with image it 
+   will create overlapping, because image by default is inline and the block element 
+   overflows in it. 
+
+Q.)   How to solve this problem? 
+A.)   Margin with auto, and width as percentage solves the problem. Note, we cannot set
+      width with the inline element. 
+
+      Why?
+
+      Because outer div, is the container bag for all the items. You cannot move individual
+      items in the bag to some, where leaving the oute bag/ envelope at the same place.  
+
+Q.)   If you want to keep the element inline, and play with its width?
+A.)   Inline-block.
+*/
+</style>
+</head>
+<body>
+    <header id="top">
+        <img src="RAvi_Facebook_Jpeg.jpg" alt="My Image">
+        <h3>Welcome to Ravi's blog</h3>
+    </header>  
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Voluptatibus excepturi ipsam sed dolorum accusamus quos 
+                 obcaecati? Iste voluptate esse autem hic consequatur
+                  molestiae enim, eius eveniet corrupti illum minima quae!</p>
+        </div>
+   
+  
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Voluptatibus excepturi ipsam sed dolorum accusamus quos 
+                 obcaecati? Iste voluptate esse autem hic consequatur
+                  molestiae enim, eius eveniet corrupti illum minima quae!</p>
+        </div>
+  
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Voluptatibus excepturi ipsam sed dolorum accusamus quos 
+                 obcaecati? Iste voluptate esse autem hic consequatur
+                  molestiae enim, eius eveniet corrupti illum minima quae!</p>
+        </div>
+    </div>    
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute Relative</title>
+<style>
+    .box{
+        border: 2px solid blue;
+        display: inline-block;
+        width: 15%;
+        height: 100px;
+        /* By default the position is static. Position relative mens position
+                             related to the original position. */
+        }
+    #boxId3{
+        position: relative;
+        top: 34px; /* Its applied on the relative postion of block3. */
+        left: 34px;/* Relative used when you want gap from the original position*/
+    }
+    #boxId4{
+        position: fixed; /* Values of bottom and right according to position:fixed
+                            this behavior is similar to postion:relative */
+        right: 40px;
+        bottom: 2px;
+    }
+    #boxId1{
+        /*That means, its position will be fixed to a certain part of the html page, 
+          which will be fixed to that particular position only whether the user scrolls 
+          up or down the page. On the other hand, sticky position toggles between position
+          relative and position fixed.*/
+          position: sticky;
+          top: 40px;
+    }
+    .container{
+        border: 2px solid red;
+        margin: auto;
+        width: 70%;
+        height: 2000px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="container" id="containerId">
+        <div class="box" id="boxId1"> Box1 </div>
+        <div class="box" id="boxId2"> Box2 </div>
+        <div class="box" id="boxId3"> Box3 </div>
+        <div class="box" id="boxId4"> Box4 </div>
+    </div>
+    
+</body>
+</html>
