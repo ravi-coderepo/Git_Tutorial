@@ -2,6 +2,6 @@
 Moving the 2nd line to the 3rd.
 Git_Tutorial
 
-Test the Merge
+Test --- Rebase --
 
 Adding for merge
