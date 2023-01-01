@@ -1,0 +1,203 @@
+    1  pwd
+    2  ls
+    3  git --version
+    4  cd H:\Coding_Practice\Git_POC
+    5  pwd
+    6  cd H:\Coding_Practice\Git_POC
+    7  H:
+    8  pwd
+    9  cd H:/
+   10  pwd
+   11  cd H:\Coding_Practice\Git_POC
+   12  pwd
+   13  cd Coding_Practice/Git_POC/
+   14  pwd
+   15  mkdir edureka
+   16  cd edureka/
+   17  cd H:
+   18  cd Coding_Practice/
+   19  cd Git_POC/
+   20  ls
+   21   cd ..
+   22  cd H:\Fullerton\Self_Study\Git Notes\Git_Tutorial
+   23  cd ../Fullerton/Self_Study/
+   24  cd Git_Notes/
+   25  clear
+   26  pwd
+   27  ls
+   28  cd Git_Tutorial/
+   29  ls
+   30  git config --list\
+   31  git config --list
+   32  touch alpha.txt
+   33  notepad alpha.txt 
+   34  git status
+   35  git --help
+   36  git config --list
+   37  cd H:
+   38  pwd
+   39  cd H:\Fullerton\Self_Study\Git\Practice
+   40  pwd
+   41  cd H:Fullerton/
+   42  pwd
+   43  cd Self_Study/Gitpwd
+   44  cd H:\Fullerton\Self_Study\Git_Notes\Git_Tutorial
+   45  cd ..
+   46  pwd
+   47  cd Fullerton/Self_Study/Git_Notes/
+   48  git status
+   49  cat Git
+   50  cd Git_Tutorial/
+   51  ls
+   52  cat alpha.txt 
+   53  cat Test\ the\ change.txt ]
+   54  git status
+   55  git add .
+   56  git status
+   57  git rm --cached .
+   58  git -r rm --cached .
+   59  git status
+   60  git rm --cached alpha.txt 
+   61  git rm --cached Test\ the\ change.txt 
+   62  git status
+   63  git commit -m "Beta amd Gamaa"
+   64  git add .
+   65  git commit -m "Beta amd Gamaa"
+   66  git status
+   67  git log
+   68  touch beta.txt
+   69  notepad beta.txt 
+   70  git status
+   71  git add beta.txt 
+   72  git clear
+   73  clear
+   74  git status
+   75  git restore --staged beta.txt
+   76  git status
+   77  git add beta.txt 
+   78  git commit -m " 2nd commit "
+   79  git status
+   80  git remote add origin https://github.com/ravi-coderepo/Git_Tutorial.git
+   81  git remote -v
+   82  git push origin master
+   83  git status
+   84  git status
+   85  git add .
+   86  cd CSS/
+   87  git status
+   88  cd ..
+   89  clear
+   90  pwd
+   91  git commit -m "Checking-in a folder. "
+   92  git status
+   93  git push --help
+   94  git push -u origin master
+   95  git status
+   96  git pull --help
+   97  git pull origin master
+   98  git push -u origin master
+   99  git status
+  100  git log --merge
+  101  git checkout --help
+  102  cd ..
+  103  pwd
+  104  mkdir Git_Practice
+  105  cd Git_Practice/
+  106  ls -ltr
+  107  git init A
+  108  git init B
+  109  cd A/
+  110  git remote add origin https://github.com/ravi-coderepo/Git_Tutorial.git
+  111  git pull orgin master
+  112  git status
+  113  clear
+  114  git pull orgin master
+  115  git remote add origin https://github.com/ravi-coderepo/Git_Tutorial.git
+  116  git pull -u origin master
+  117  git pull origin master
+  118  ls -ltr
+  119  cd ../B/
+  120  ls -ltr
+  121  git remote add origin https://github.com/ravi-coderepo/Git_Tutorial.git
+  122  git pull origin master
+  123  git status
+  124  cd ../A/
+  125  vi README.md 
+  126  git status 
+  127  git add .
+  128  git commit -m "First step to check the merge."
+  129  git status 
+  130  git status
+  131  ls -ltr
+  132  cat A
+  133  cat README.md 
+  134  git push orgin master2
+  135  git push orgin master
+  136  git pull orgin master
+  137  git pull orgin master
+  138  cd ..
+  139  cd A/
+  140  git pull origin master 
+  141  git push origin master 
+  142  git status
+  143  pwd
+  144  cd ../B/
+  145  git status
+  146  git status
+  147  git add .
+  148  git commit -m "Second step to check the merge."
+  149  git push orgin master
+  150  cd ..
+  151  cd B/
+  152  git push orgin master
+  153  git push orgin master
+  154  cd ..
+  155  cd A/
+  156  cd ../B/
+  157  git status
+  158  git push origin master 
+  159  git pull origin master
+  160  cat README.md 
+  161  git push origin master3
+  162  git push origin master
+  163  git status
+  164  cd ../A/
+  165  vi README.md 
+  166  vi README.md 
+  167  git pull orgin master
+  168  git pull origin master
+  169  git commit -m "Making the 3rd commit for rebase"
+  170  git add .
+  171  git commit -m "Making the 3rd commit for rebase"
+  172  cd ../B/
+  173  git status
+  174  git pull --rebase origin master
+  175  git status
+  176  cd ../A/
+  177  ls -ltr
+  178  vi README.md 
+  179  ls -ltr
+  180  git status
+  181  git add .
+  182  git commit -m "Commit 4 for the merge"
+  183  git push origin master
+  184  git pull --rebase origin master
+  185  cat README.md 
+  186  git status
+  187  git push origin master
+  188  cd ../B/
+  189  git status
+  190  git push origin master
+  191  git pull origin master
+  192  git status
+  193  git push origin master
+  194  git log
+  195  git log -n 5
+  196  git log -n 1
+  197  clear
+  198  git log -n 1
+  199  git branch
+  200  history
+  201  git history >> cmds.txt
+  202  git history 
+  203  history >> cmds.txt
